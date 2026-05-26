@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "Prism",
+    "logoIcon": "ti-chart-dots-3"
+  },
+  "user": {
+    "initials": "JK",
+    "name": "Jamie Kim",
+    "role": "Admin"
+  },
+  "nav": {
+    "main": [
+      { "label": "Overview",  "icon": "ti-layout-dashboard", "active": true },
+      { "label": "Analytics", "icon": "ti-chart-bar" },
+      { "label": "Orders",    "icon": "ti-shopping-bag" },
+      { "label": "Customers", "icon": "ti-users" },
+      { "label": "Products",  "icon": "ti-package" }
+    ],
+    "reports": [
+      { "label": "Revenue",   "icon": "ti-file-analytics" },
+      { "label": "Geography", "icon": "ti-map-pin" },
+      { "label": "Forecasts", "icon": "ti-chart-line" }
+    ],
+    "settings": [
+      { "label": "Preferences", "icon": "ti-settings" },
+      { "label": "Alerts",      "icon": "ti-bell" }
+    ]
+  },
+  "page": {
+    "title": "Overview",
+    "subtitle": "May 2026 · All stores"
+  },
+  "metrics": [
+    {
+      "label": "Total revenue",
+      "value": "$84,320",
+      "icon": "ti-currency-dollar",
+      "iconBg": "#EEEDFE",
+      "iconColor": "#534AB7",
+      "delta": "+12.4%",
+      "deltaType": "up",
+      "deltaLabel": "vs last month"
+    },
+    {
+      "label": "New customers",
+      "value": "1,482",
+      "icon": "ti-users",
+      "iconBg": "#E1F5EE",
+      "iconColor": "#1D9E75",
+      "delta": "+8.1%",
+      "deltaType": "up",
+      "deltaLabel": "vs last month"
+    },
+    {
+      "label": "Avg. order value",
+      "value": "$56.90",
+      "icon": "ti-receipt",
+      "iconBg": "#FAEEDA",
+      "iconColor": "#854F0B",
+      "delta": "-2.3%",
+      "deltaType": "down",
+      "deltaLabel": "vs last month"
+    },
+    {
+      "label": "Conversion rate",
+      "value": "3.7%",
+      "icon": "ti-target",
+      "iconBg": "#FBEAF0",
+      "iconColor": "#993556",
+      "delta": "+0.5%",
+      "deltaType": "up",
+      "deltaLabel": "vs last month"
+    }
+  ],
+  "revenueChart": {
+    "title": "Revenue by month",
+    "subtitle": "2026 vs 2025 comparison",
+    "color2026": "#534AB7",
+    "color2025": "#CECBF6",
+    "months": [
+      { "month": "Jan", "y2025": 52, "y2026": 68 },
+      { "month": "Feb", "y2025": 60, "y2026": 74 },
+      { "month": "Mar", "y2025": 44, "y2026": 58 },
+      { "month": "Apr", "y2025": 70, "y2026": 92 },
+      { "month": "May", "y2025": 58, "y2026": 112 },
+      { "month": "Jun", "y2025": 80, "y2026": 88 },
+      { "month": "Jul", "y2025": 65, "y2026": 76 },
+      { "month": "Aug", "y2025": 90, "y2026": 100 },
+      { "month": "Sep", "y2025": 72, "y2026": 96 },
+      { "month": "Oct", "y2025": 84, "y2026": 108 },
+      { "month": "Nov", "y2025": 96, "y2026": 116 },
+      { "month": "Dec", "y2025": 104, "y2026": 120 }
+    ]
+  },
+  "trafficSources": {
+    "title": "Traffic sources",
+    "totalSessions": 3841,
+    "sources": [
+      { "label": "Organic search", "percent": 47, "color": "#534AB7" },
+      { "label": "Referral",       "percent": 24, "color": "#1D9E75" },
+      { "label": "Paid ads",       "percent": 14, "color": "#EF9F27" },
+      { "label": "Direct",         "percent": 15, "color": "#D3D1C7" }
+    ]
+  },
+  "orders": {
+    "title": "Recent orders",
+    "subtitle": "Last 5 transactions",
+    "rows": [
+      { "initials": "AN", "avatarBg": "#EEEDFE", "avatarColor": "#534AB7", "name": "Amara Nwosu",  "amount": "$124.00", "date": "May 25", "status": "Fulfilled" },
+      { "initials": "LF", "avatarBg": "#E1F5EE", "avatarColor": "#1D9E75", "name": "Leon Fischer", "amount": "$78.50",  "date": "May 25", "status": "Pending" },
+      { "initials": "YT", "avatarBg": "#FAEEDA", "avatarColor": "#854F0B", "name": "Yuki Tanaka",  "amount": "$210.00", "date": "May 24", "status": "Fulfilled" },
+      { "initials": "SP", "avatarBg": "#FCEBEB", "avatarColor": "#A32D2D", "name": "Sara Petrov",  "amount": "$43.20",  "date": "May 24", "status": "Refunded" },
+      { "initials": "MC", "avatarBg": "#EEEDFE", "avatarColor": "#534AB7", "name": "Marcus Cole",  "amount": "$89.90",  "date": "May 23", "status": "Fulfilled" }
+    ]
+  },
+  "topProducts": {
+    "title": "Top products",
+    "subtitle": "By revenue share",
+    "items": [
+      { "name": "Wireless Pro Headphones", "revenue": "$24,100", "percent": 28, "barWidth": 68, "color": "#534AB7" },
+      { "name": "Mechanical Keyboard X",   "revenue": "$18,430", "percent": 22, "barWidth": 52, "color": "#1D9E75" },
+      { "name": "4K Webcam Ultra",         "revenue": "$14,200", "percent": 17, "barWidth": 40, "color": "#EF9F27" },
+      { "name": "USB-C Hub 10-in-1",       "revenue": "$10,880", "percent": 13, "barWidth": 30, "color": "#D4537E" },
+      { "name": "Laptop Stand Aluminum",   "revenue": "$8,640",  "percent": 10, "barWidth": 24, "color": "#888780" },
+      { "name": "Others",                  "revenue": "$8,070",  "percent": 10, "barWidth": 20, "color": "#B4B2A9" }
+    ]
+  }
+}
